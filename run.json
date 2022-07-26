@@ -1,0 +1,16 @@
+{
+  "animation": [
+		{
+			"text": "Orang Gak Guna",
+			"timeout": 500
+		},		
+    {
+			"text": "On Jam Gak nentu",
+			"timeout": 500
+		},		
+    {
+			"text": "Jan Spam Dek",
+			"timeout": 1000
+		}
+	]
+}
