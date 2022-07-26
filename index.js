@@ -1,8 +1,5 @@
 const keepAlive = require("./server.js")
 const chalk = require('chalk');
-const express = require('express')
-const app = express();
-const port = 3000
 const dotenv = require('dotenv');
 const { Client } = require('discord.js-selfbot-v11')
 const fs = require('fs');
@@ -14,10 +11,6 @@ events.forEach(file => {
 	const event = require(`./events/${file}`);
 	client.on(eventname, event.bind(null, client));
 });
-
-app.listen(port, () =>
-console.log(``)
-);
 
 const request = require("request");
 const config = require("./run.json");
